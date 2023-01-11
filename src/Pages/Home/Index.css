@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/floating-laughing-emoji-characters_52683-27761.jpg);
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.joke{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+button:first-child{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:last-child{
+    width: 70px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
